@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.3'
 
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+gem 'sidekiq', '~> 5.1', '>= 5.1.3'
 gem 'turbolinks', '~> 5'
 
 # front end
