@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.7'
 
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'sidekiq', '~> 5.1', '>= 5.1.3'
@@ -13,6 +13,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'haml-rails', '~> 2.0'
 gem 'jbuilder', '~> 2.7'
 gem 'mysql2'
+gem 'puma'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 
@@ -34,6 +35,3 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
