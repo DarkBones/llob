@@ -5,11 +5,14 @@ ruby '2.6.3'
 
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'sidekiq', '~> 5.1', '>= 5.1.3'
+gem 'sqlite3'
 gem 'turbolinks', '~> 5'
 
 # front end
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'haml-rails', '~> 2.0'
 gem 'jbuilder', '~> 2.7'
+gem 'mysql2'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 

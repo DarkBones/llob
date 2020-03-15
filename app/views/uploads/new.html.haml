@@ -1,0 +1,4 @@
+= form_with(model: Upload.new, local: true) do |form|
+  = form.label :file
+  = form.file_field :file, class: 'form-control'
+  = form.submit class: 'btn btn-primary'
